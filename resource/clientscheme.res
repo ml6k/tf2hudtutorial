@@ -18,6 +18,10 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		//custom HUD colors
+		"Black_tf2hud"		"255 0 0 0"
+		"White_tf2hud"		"255 255 255 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -2829,7 +2833,7 @@ Scheme
 			}
 		}
 
-		ControllerHintText
+		"ControllerHintText"
 		{
 			"1"
 			{
@@ -2845,7 +2849,7 @@ Scheme
 		//
 		//////////////////// Custom HUD fonts //
 		//
-		BikoRegular12
+		"BikoRegular12"
 		{
 			"1"
 			{
@@ -2855,7 +2859,7 @@ Scheme
 			}
 		}
 		
-		BikoRegular16
+		"BikoRegular16"
 		{
 			"1"
 			{
@@ -2865,7 +2869,7 @@ Scheme
 			}
 		}
 		
-		BikoRegular24
+		"BikoRegular24"
 		{
 			"1"
 			{
@@ -2875,7 +2879,7 @@ Scheme
 			}
 		}
 		
-		BikoRegular32
+		"BikoRegular36"
 		{
 			"1"
 			{
@@ -2885,7 +2889,7 @@ Scheme
 			}
 		}
 		
-		BikoRegular42
+		"BikoRegular42"
 		{
 			"1"
 			{
@@ -2895,11 +2899,153 @@ Scheme
 			}
 		}
 		
-		BikoRegular48
+		"BikoRegular48"
 		{
 			"1"
 			{
 				"name"		"Biko"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
+		//biko-bold
+		"BikoBold12"
+		{
+			"1"
+			{
+				"name"		"Biko-bold"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		"BikoBold16"
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		"BikoBold24"
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		"BikoBold28"
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+		
+		"BikoBold32"
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		"BikoBold42"
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		"BikoBold48"
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
+		"BikoBold56"
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		//biko-black
+		"BikoBlack12"
+		{
+			"1"
+			{
+				"name"		"Biko-Black"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		"BikoBlack16"
+		{
+			"1"
+			{
+				"name"		"Biko-Black"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		"BikoBlack24"
+		{
+			"1"
+			{
+				"name"		"Biko-Black"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		"BikoBlack32"
+		{
+			"1"
+			{
+				"name"		"Biko-Black"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		"BikoBlack42"
+		{
+			"1"
+			{
+				"name"		"Biko-Black"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		"BikoBlack48"
+		{
+			"1"
+			{
+				"name"		"Biko-Black"
 				"tall"		"48"
 				"antialias" "1"
 			}
@@ -5242,23 +5388,25 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}			
-		"7" "resource/ocra.ttf"
-		{
-		
-		}
-		"8"
+		"7"
 		{
 			"font" "resource/fonts/Biko_Black.otf"
 			"name" "Biko-Black"
 		}
-		"9"
+		"8"
 		{
 			"font" "resource/fonts/Biko_Bold.otf"
 			"name" "Biko-Bold"
 		}
-		"10"
+		"9"
 		{
 			"font" "resource/fonts/Biko_Regular.otf"
 			"name" "Biko"
 		}
+		"10"
+		{ 
+			"font" "resource/ocra.ttf"
+			"name" "OCRA"
+		}
+	}
 }

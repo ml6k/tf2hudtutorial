@@ -16,7 +16,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c125"
+		"xpos"	"c100"
 		"ypos"	"c150"
 		"wide"	"250"
 		"tall"	"120"
@@ -254,7 +254,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"250"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -291,7 +291,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"
+		"ypos"		"300"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -997,7 +997,7 @@
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
-
+	
 	"HudEurekaEffectTeleportMenu"
 	{
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
@@ -1227,7 +1227,7 @@
 		"NormalY"		"10"
 		"EngineerY"		"170"
 		"zpos"			"2"
-		"wide"			"280"
+		"wide"			"200"
 		"tall"			"280"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -1259,11 +1259,11 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r200"
-		"ypos"					"rs1"
+		"xpos"					"r270"
+		"ypos"					"300"
 		"zpos"					"10"
-		"wide"					"190"
-		"tall"					"f0"
+		"wide"					"270"
+		"tall"					"180"
 	}
 	
 	HudTFCrosshair
@@ -1367,7 +1367,7 @@
 	"CTFStreakNotice"
 	{
 		"fieldName"		"CTFStreakNotice"
-		"xpos"			"0"
+		"xpos"			"0"			
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
@@ -1376,7 +1376,7 @@
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
 	}
-
+	
 	CTFFlagCalloutPanel
 	{
 		"fieldName"		"CTFFlagCalloutPanel"
